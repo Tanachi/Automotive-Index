@@ -1,0 +1,16 @@
+DROP USER IF EXISTS index_cars_users;
+CREATE USER index_cars_users;
+DROP DATABASE IF EXISTS index_cars;
+CREATE DATABASE index_cars;
+GRANT ALL ON DATABASE index_cars TO index_cars_users;
+\i scripts/car_models.sql;
+\i scripts/car_model_data.sql;
+\i scripts/car_model_data.sql;
+\i scripts/car_model_data.sql;
+\i scripts/car_model_data.sql;
+\i scripts/car_model_data.sql;
+\i scripts/car_model_data.sql;
+\i scripts/car_model_data.sql;
+\i scripts/car_model_data.sql;
+\i scripts/car_model_data.sql;
+\i scripts/car_model_data.sql;
